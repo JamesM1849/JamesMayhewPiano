@@ -630,4 +630,70 @@ h6 {
   .section-title {
     font-size: 2rem;
   }
+
+  .instagram-btn span {
+    display: none;
+  }
+
+  .instagram-btn {
+    padding: 0.8rem 1rem;
+  }
+
+  .concert-item {
+    padding: 1.5rem;
+  }
+
+  .welcome-card {
+    padding: 1.5rem;
+  }
+
+  .bio-text p {
+    font-size: 1.1rem;
+    text-indent: 1rem;
+  }
+}
+
+/* Smooth animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.concert-item,
+.video-item,
+.welcome-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Focus styles for accessibility */
+.nav-link:focus,
+.instagram-btn:focus {
+  outline: 2px solid #d4af37;
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .header,
+  .footer {
+    display: none;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  .section-title,
+  .logo h1,
+  .concert-date,
+  .email-address {
+    color: #333;
+  }
 }
