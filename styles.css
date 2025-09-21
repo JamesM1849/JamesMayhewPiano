@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Cormorant Garamond", "Georgia", serif;
+  font-family: "Georgia", "Times New Roman", serif;
   background: linear-gradient(135deg, #0a0a0a 0%, #111111 50%, #0a0a0a 100%);
   color: #e8e8e8;
   line-height: 1.7;
@@ -32,8 +32,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", "Georgia", serif;
-  font-weight: 400;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: 500;
   line-height: 1.3;
 }
 
@@ -64,18 +64,18 @@ h6 {
 
 .logo h1 {
   font-size: 2.8rem;
-  font-weight: 500;
-  color: #d4af37;
+  font-weight: 600;
+  color: #ffd700;
   letter-spacing: 2px;
-  text-shadow: 0 2px 8px rgba(212, 175, 55, 0.4);
+  text-shadow: 0 2px 8px rgba(255, 215, 0, 0.5);
   margin-bottom: -5px;
 }
 
 .tagline {
   font-size: 1.1rem;
-  color: #b8941f;
+  color: #e6c200;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5px;
 }
 
@@ -86,7 +86,7 @@ h6 {
 }
 
 .nav-link {
-  color: #d4af37;
+  color: #ffd700;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
@@ -102,10 +102,10 @@ h6 {
 .nav-link:hover,
 .nav-link.active {
   color: #000;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
-  border-color: #d4af37;
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  border-color: #ffd700;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
 }
 
 /* Hero Section */
@@ -118,10 +118,10 @@ h6 {
 
 .hero-content h2 {
   font-size: 3.5rem;
-  font-weight: 300;
-  color: #d4af37;
+  font-weight: 400;
+  color: #ffd700;
   margin-bottom: 2rem;
-  text-shadow: 0 3px 10px rgba(212, 175, 55, 0.3);
+  text-shadow: 0 3px 10px rgba(255, 215, 0, 0.4);
 }
 
 .hero-image {
@@ -134,8 +134,8 @@ h6 {
   max-width: 400px;
   width: 100%;
   border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(212, 175, 55, 0.25);
-  border: 3px solid #d4af37;
+  box-shadow: 0 10px 40px rgba(255, 215, 0, 0.25);
+  border: 3px solid #ffd700;
   transition: transform 0.3s ease;
 }
 
@@ -168,12 +168,12 @@ h6 {
 
 .section-title {
   font-size: 3rem;
-  font-weight: 400;
-  color: #d4af37;
+  font-weight: 500;
+  color: #ffd700;
   margin-bottom: 2.5rem;
   text-align: center;
   letter-spacing: 1px;
-  text-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+  text-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);
 }
 
 .section-subtitle {
@@ -186,7 +186,7 @@ h6 {
 
 .subsection-title {
   font-size: 2.2rem;
-  color: #d4af37;
+  color: #ffd700;
   margin: 3rem 0 2rem 0;
   text-align: center;
 }
@@ -199,8 +199,8 @@ h6 {
 }
 
 .concert-item {
-  background: rgba(212, 175, 55, 0.05);
-  border: 2px solid rgba(212, 175, 55, 0.2);
+  background: rgba(255, 215, 0, 0.05);
+  border: 2px solid rgba(255, 215, 0, 0.2);
   border-radius: 12px;
   padding: 2.5rem;
   transition: all 0.4s ease;
@@ -215,15 +215,15 @@ h6 {
   left: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, #d4af37, #f4d03f, #d4af37);
+  background: linear-gradient(90deg, #ffd700, #ffed4e, #ffd700);
   transform: translateX(-100%);
   transition: transform 0.4s ease;
 }
 
 .concert-item:hover {
-  border-color: #d4af37;
-  background: rgba(212, 175, 55, 0.08);
-  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.15);
+  border-color: #ffd700;
+  background: rgba(255, 215, 0, 0.08);
+  box-shadow: 0 8px 30px rgba(255, 215, 0, 0.2);
   transform: translateY(-3px);
 }
 
@@ -234,9 +234,9 @@ h6 {
 .concert-date {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #d4af37;
+  color: #ffd700;
   margin-bottom: 0.75rem;
-  font-family: "Playfair Display", serif;
+  font-family: "Georgia", serif;
 }
 
 .concert-title {
@@ -261,7 +261,7 @@ h6 {
 
 .past-concert {
   opacity: 0.8;
-  border-color: rgba(212, 175, 55, 0.15);
+  border-color: rgba(255, 215, 0, 0.15);
 }
 
 /* Biography Page */
@@ -292,8 +292,8 @@ h6 {
 }
 
 .video-item {
-  background: rgba(212, 175, 55, 0.05);
-  border: 2px solid rgba(212, 175, 55, 0.2);
+  background: rgba(255, 215, 0, 0.05);
+  border: 2px solid rgba(255, 215, 0, 0.2);
   border-radius: 12px;
   padding: 2rem;
   text-align: center;
@@ -301,8 +301,8 @@ h6 {
 }
 
 .video-item:hover {
-  border-color: rgba(212, 175, 55, 0.4);
-  box-shadow: 0 6px 25px rgba(212, 175, 55, 0.15);
+  border-color: rgba(255, 215, 0, 0.4);
+  box-shadow: 0 6px 25px rgba(255, 215, 0, 0.15);
   transform: translateY(-2px);
 }
 
@@ -311,15 +311,15 @@ h6 {
   height: 200px;
   background: linear-gradient(
     135deg,
-    rgba(212, 175, 55, 0.1),
-    rgba(212, 175, 55, 0.05)
+    rgba(255, 215, 0, 0.1),
+    rgba(255, 215, 0, 0.05)
   );
-  border: 2px dashed rgba(212, 175, 55, 0.3);
+  border: 2px dashed rgba(255, 215, 0, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: rgba(212, 175, 55, 0.8);
+  color: rgba(255, 215, 0, 0.8);
   margin-bottom: 1.5rem;
   border-radius: 8px;
   position: relative;
@@ -329,22 +329,22 @@ h6 {
 .video-placeholder:hover {
   background: linear-gradient(
     135deg,
-    rgba(212, 175, 55, 0.15),
-    rgba(212, 175, 55, 0.08)
+    rgba(255, 215, 0, 0.15),
+    rgba(255, 215, 0, 0.08)
   );
-  border-color: rgba(212, 175, 55, 0.5);
+  border-color: rgba(255, 215, 0, 0.5);
 }
 
 .video-icon {
   font-size: 3rem;
-  color: #d4af37;
+  color: #ffd700;
   margin-bottom: 1rem;
   opacity: 0.7;
 }
 
 .video-item h3 {
   font-size: 1.4rem;
-  color: #d4af37;
+  color: #ffd700;
   margin-bottom: 1rem;
 }
 
@@ -357,13 +357,13 @@ h6 {
   text-align: center;
   margin-top: 4rem;
   padding: 2rem;
-  background: rgba(212, 175, 55, 0.05);
+  background: rgba(255, 215, 0, 0.05);
   border-radius: 8px;
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(255, 215, 0, 0.2);
 }
 
 .coming-soon p {
-  color: rgba(212, 175, 55, 0.8);
+  color: rgba(255, 215, 0, 0.8);
   font-style: italic;
   font-size: 1.1rem;
 }
@@ -377,18 +377,18 @@ h6 {
 .welcome-card {
   background: linear-gradient(
     135deg,
-    rgba(212, 175, 55, 0.08),
-    rgba(212, 175, 55, 0.03)
+    rgba(255, 215, 0, 0.08),
+    rgba(255, 215, 0, 0.03)
   );
-  border: 2px solid rgba(212, 175, 55, 0.3);
+  border: 2px solid rgba(255, 215, 0, 0.3);
   border-radius: 16px;
   padding: 3rem;
-  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.1);
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.1);
 }
 
 .welcome-card h3 {
   font-size: 2.2rem;
-  color: #d4af37;
+  color: #ffd700;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -456,19 +456,19 @@ h6 {
 
 .location-info,
 .response-info {
-  text-align: center;
+  text-align: left;
 }
 
 .contact-note {
   margin-top: 2.5rem;
   padding-top: 2rem;
-  border-top: 1px solid rgba(212, 175, 55, 0.3);
+  border-top: 1px solid rgba(255, 215, 0, 0.3);
   text-align: center;
 }
 
 .contact-note p:last-child {
   margin-top: 1rem;
-  color: #d4af37;
+  color: #ffd700;
   font-size: 1.1rem;
 }
 
@@ -495,32 +495,32 @@ h6 {
 
 .footer-logo h3 {
   font-size: 2.2rem;
-  font-weight: 400;
-  color: #d4af37;
+  font-weight: 500;
+  color: #ffd700;
   letter-spacing: 1px;
-  text-shadow: 0 2px 4px rgba(212, 175, 55, 0.3);
+  text-shadow: 0 2px 4px rgba(255, 215, 0, 0.4);
 }
 
 .instagram-btn {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  color: #d4af37;
+  color: #ffd700;
   text-decoration: none;
   padding: 1rem 2rem;
-  border: 2px solid #d4af37;
+  border: 2px solid #ffd700;
   border-radius: 30px;
   transition: all 0.4s ease;
   font-weight: 500;
-  background: rgba(212, 175, 55, 0.05);
+  background: rgba(255, 215, 0, 0.05);
   font-size: 1.1rem;
 }
 
 .instagram-btn:hover {
   color: #000;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
 }
 
 .instagram-btn svg {
@@ -540,7 +540,7 @@ h6 {
 }
 
 .footer-bottom p {
-  color: rgba(212, 175, 55, 0.7);
+  color: rgba(255, 215, 0, 0.7);
   font-size: 1rem;
   font-weight: 300;
 }
@@ -605,6 +605,14 @@ h6 {
 
   .email-display {
     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email-section,
+  .location-info,
+  .response-info {
     text-align: center;
   }
 }
@@ -674,7 +682,7 @@ h6 {
 /* Focus styles for accessibility */
 .nav-link:focus,
 .instagram-btn:focus {
-  outline: 2px solid #d4af37;
+  outline: 2px solid #ffd700;
   outline-offset: 2px;
 }
 
